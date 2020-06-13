@@ -1,0 +1,23 @@
+# General
+*~
+__pycache__
+
+# Python
+*.pyc
+env/
+
+database
+
+# images
+**notebooks/images/**
+!**notebooks/images/
+!**notebooks/images/__init__.py
+images/**
+
+
+# Docker
+bin/
+lib/
+# VsCode
+.vscode/launch.json
+.vscode/settings.json
