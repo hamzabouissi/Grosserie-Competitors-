@@ -14,4 +14,4 @@ RUN rm -rf /var/lib/apt/lists/*
 ENV SHELL /bin/bash
 
 WORKDIR /home/docker/ProductCrawler
-COPY . .
+# COPY . .

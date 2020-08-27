@@ -31,6 +31,8 @@ services:
   #     CONTAINER_SCRIPT: Geant
   #   depends_on: 
   #     - mongo
+  #   volumes: 
+  #     - ../ProductCrawler:/home/docker/ProductCrawler
 
   # Livrini: 
   #   container_name: livrin_crawler
